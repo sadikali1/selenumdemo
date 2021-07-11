@@ -1,0 +1,188 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-11T20:12:09.749Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3999100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.step.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "add two number",
+        "description": "",
+        "id": "title-of-your-feature;add-two-number",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.step.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2002800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.step.Hooks.setUpAfterSteps()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1007700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.step.Hooks.setUpSteps()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "both numbers are 10 and 20",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 17
+                },
+                {
+                  "val": "20",
+                  "offset": 24
+                }
+              ],
+              "location": "com.step.Steps.both_numbers_are_and(int,int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3002400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 996900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.step.Hooks.setUpAfterSteps()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 997400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.step.Hooks.setUpSteps()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I added both numbers",
+            "match": {
+              "location": "com.step.Steps.i_added_both_numbers()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1001500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.step.Hooks.setUpAfterSteps()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.step.Hooks.setUpSteps()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I verify result is 30",
+            "match": {
+              "arguments": [
+                {
+                  "val": "30",
+                  "offset": 19
+                }
+              ],
+              "location": "com.step.Steps.i_verify_result_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.step.Hooks.setUpAfterSteps()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.step.Hooks.setUpSteps()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I verify",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/scenario1.feature",
+    "tags": []
+  }
+]
