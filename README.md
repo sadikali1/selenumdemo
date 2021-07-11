@@ -1,6 +1,3 @@
-Second commits
-Third commit
-
 git init
 
 git status
@@ -14,4 +11,7 @@ git push
 
 git pull 
 
+   * Second commits
+   * Third commit
+   * Fourth commit
 
