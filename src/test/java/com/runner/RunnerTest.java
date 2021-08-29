@@ -15,7 +15,7 @@ import io.cucumber.junit.CucumberOptions;
 		dryRun = true,
 		tags = "@Smoke")
 
-public class Runner { 
+public class RunnerTest { 
 			
 }
 
