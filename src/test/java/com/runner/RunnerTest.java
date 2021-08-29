@@ -11,9 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 		glue = { "com.step", "classpath:io.jdev.cucumber.variables.java.en" },
 		plugin = { "pretty",
 				"html:target/cucumber-html-report.html", "json:target/cucumber-json-report.json" }, 
-		monochrome = true,
-		dryRun = true,
-		tags = "@Smoke")
+		monochrome = true)
 
 public class RunnerTest { 
 			
